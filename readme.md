@@ -4,4 +4,4 @@
 
 ## AKU MAU NASI PADANGGGGGGGGGGGGGGGGG
 
-woi kerjain woi
+woi kerjain woi e
