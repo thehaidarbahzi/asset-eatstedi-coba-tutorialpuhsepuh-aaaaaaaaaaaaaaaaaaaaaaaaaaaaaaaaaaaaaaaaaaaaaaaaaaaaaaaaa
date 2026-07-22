@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 3 Website</title>
+    <link rel="stylesheet" href="style_section-3.css">
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1 id="hero-title">Memuat...</h1>
+        <p id="hero-desc">Sedang mengambil data...</p>
+        <a href="#" id="hero-btn" class="btn">Tombol</a>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro">
+        <div class="intro-line"></div>
+        <h2 id="intro-subtitle">Memuat...</h2>
+        <p id="intro-desc">Sedang mengambil data...</p>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature">
+        <!-- Ganti src dengan path gambar Anda -->
+        <img id="feature-img" class="feature-img" src="" alt="Placeholder" />
+
+        <div class="feature-content">
+            <h3 id="feature-subtitle">Memuat...</h3>
+            <p id="feature-desc">Sedang mengambil data...</p>
+
+            <ul id="feature-points" class="points">
+                <!-- Data akan diisi via JS -->
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Jalankan fungsi fetchData saat halaman selesai dimuat
+        window.onload = fetchData;
+    </script>
+</body>
+
+</html>
